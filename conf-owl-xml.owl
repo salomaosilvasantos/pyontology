@@ -1,0 +1,568 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="https://github.com/salomaosilvasantos/pyontology/blob/master/conf.owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="https://github.com/salomaosilvasantos/pyontology/blob/master/conf.owl">
+    <Prefix name="" IRI="http://www.semanticweb.org/owl/owlapi/turtle#"/>
+    <Prefix name="dc" IRI="http://purl.org/dc/elements/1.1/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="conf" IRI="file:/C:/Users/Santos/Desktop/ontologia/conf/"/>
+    <Prefix name="foaf" IRI="http://xmlns.com/foaf/0.1/"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="skos" IRI="http://www.w3.org/2004/02/skos/core#"/>
+    <Prefix name="vcard" IRI="http://www.w3.org/2001/vcard-rdf/3.0#"/>
+    <Declaration>
+        <DataProperty abbreviatedIRI="conf:location"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="conf:PostalAddress"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="foaf:Document"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="vcard:country"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="conf:location"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="foaf:homepage"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="vcard:country"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="skos:Concept"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="dc:creator"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="conf:Organization"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="foaf:name"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="conf:Conference"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="foaf:name"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org#Person/3"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="foaf:homepage"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="vcard:pcode"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://annotation.semanticweb.org/iswc/iswc.daml#ISWC_2002"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="conf:conference"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="foaf:mbox"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="skos:subject"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="vcard:ADR"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="skos:prefLabel"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="conf:research_interests"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="skos:prefLabel"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="dc:creator"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="conf:Conference"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="rdfs:label"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="foaf:Person"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="dc:date"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="skos:subject"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="foaf:mbox"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="dc:date"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="skos:broader"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org#Person/1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="conf:has_affiliation"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="conf:PostalAddress"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="conf:Organization"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="vcard:pcode"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="skos:Concept"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="vcard:ADR"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="conf:research_interests"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="vcard:street"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="skos:broader"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty abbreviatedIRI="conf:has_affiliation"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="dc:title"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="conf:conference"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="vcard:locality"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="foaf:Document"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="vcard:locality"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org#Person/4"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="vcard:street"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="foaf:Person"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty abbreviatedIRI="conf:address"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="dc:title"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="rdfs:label"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual abbreviatedIRI="conf:address"/>
+    </Declaration>
+    <SubClassOf>
+        <Class abbreviatedIRI="foaf:Document"/>
+        <ObjectMaxCardinality cardinality="2">
+            <ObjectProperty abbreviatedIRI="dc:creator"/>
+        </ObjectMaxCardinality>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class abbreviatedIRI="conf:Conference"/>
+        <NamedIndividual IRI="http://annotation.semanticweb.org/iswc/iswc.daml#ISWC_2002"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="foaf:Person"/>
+        <NamedIndividual IRI="http://www.semanticweb.org#Person/1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="foaf:Person"/>
+        <NamedIndividual IRI="http://www.semanticweb.org#Person/3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="foaf:Person"/>
+        <NamedIndividual IRI="http://www.semanticweb.org#Person/4"/>
+    </ClassAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="dc:date"/>
+        <NamedIndividual IRI="http://annotation.semanticweb.org/iswc/iswc.daml#ISWC_2002"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">June 9-12, 2002</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="foaf:homepage"/>
+        <NamedIndividual IRI="http://www.semanticweb.org#Person/1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">http://www.isi.edu/~gil</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="foaf:mbox"/>
+        <NamedIndividual IRI="http://www.semanticweb.org#Person/1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">gil@isi.edu</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="foaf:name"/>
+        <NamedIndividual IRI="http://www.semanticweb.org#Person/1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Yolanda Gil</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="foaf:homepage"/>
+        <NamedIndividual IRI="http://www.semanticweb.org#Person/3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">http://www.isi.edu/~varunr</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="foaf:mbox"/>
+        <NamedIndividual IRI="http://www.semanticweb.org#Person/3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">blythe@isi.edu</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="foaf:name"/>
+        <NamedIndividual IRI="http://www.semanticweb.org#Person/3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Jim Blythe</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="foaf:homepage"/>
+        <NamedIndividual IRI="http://www.semanticweb.org#Person/4"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">http://www.i-u.de/schools/eberhart/</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="foaf:mbox"/>
+        <NamedIndividual IRI="http://www.semanticweb.org#Person/4"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">eberhart@i-u.de</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty abbreviatedIRI="foaf:name"/>
+        <NamedIndividual IRI="http://www.semanticweb.org#Person/4"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Andreas Eberhart</Literal>
+    </DataPropertyAssertion>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="conf:conference"/>
+        <Class abbreviatedIRI="foaf:Document"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="conf:has_affiliation"/>
+        <Class abbreviatedIRI="foaf:Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="conf:research_interests"/>
+        <Class abbreviatedIRI="foaf:Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="dc:creator"/>
+        <Class abbreviatedIRI="foaf:Document"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="vcard:ADR"/>
+        <Class abbreviatedIRI="conf:Organization"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="skos:broader"/>
+        <Class abbreviatedIRI="skos:Concept"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty abbreviatedIRI="skos:subject"/>
+        <Class abbreviatedIRI="foaf:Document"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="conf:conference"/>
+        <Class abbreviatedIRI="conf:Conference"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="conf:has_affiliation"/>
+        <Class abbreviatedIRI="conf:Organization"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="conf:research_interests"/>
+        <Class abbreviatedIRI="skos:Concept"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="dc:creator"/>
+        <Class abbreviatedIRI="foaf:Person"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="vcard:ADR"/>
+        <Class abbreviatedIRI="conf:PostalAddress"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="skos:broader"/>
+        <Class abbreviatedIRI="skos:Concept"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty abbreviatedIRI="skos:subject"/>
+        <Class abbreviatedIRI="skos:Concept"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty abbreviatedIRI="conf:address"/>
+        <Class abbreviatedIRI="foaf:Person"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty abbreviatedIRI="conf:location"/>
+        <Class abbreviatedIRI="conf:Conference"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty abbreviatedIRI="dc:date"/>
+        <Class abbreviatedIRI="conf:Conference"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty abbreviatedIRI="dc:date"/>
+        <Class abbreviatedIRI="foaf:Document"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty abbreviatedIRI="dc:title"/>
+        <Class abbreviatedIRI="foaf:Document"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty abbreviatedIRI="vcard:country"/>
+        <Class abbreviatedIRI="conf:PostalAddress"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty abbreviatedIRI="vcard:locality"/>
+        <Class abbreviatedIRI="conf:PostalAddress"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty abbreviatedIRI="vcard:pcode"/>
+        <Class abbreviatedIRI="conf:PostalAddress"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty abbreviatedIRI="vcard:street"/>
+        <Class abbreviatedIRI="conf:PostalAddress"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty abbreviatedIRI="skos:prefLabel"/>
+        <Class abbreviatedIRI="skos:Concept"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty abbreviatedIRI="foaf:homepage"/>
+        <Class abbreviatedIRI="conf:Organization"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty abbreviatedIRI="foaf:mbox"/>
+        <Class abbreviatedIRI="foaf:Person"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty abbreviatedIRI="foaf:name"/>
+        <Class abbreviatedIRI="foaf:Person"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty abbreviatedIRI="conf:address"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty abbreviatedIRI="conf:location"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty abbreviatedIRI="dc:date"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty abbreviatedIRI="dc:title"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty abbreviatedIRI="vcard:country"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty abbreviatedIRI="vcard:locality"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty abbreviatedIRI="vcard:pcode"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty abbreviatedIRI="vcard:street"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty abbreviatedIRI="skos:prefLabel"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty abbreviatedIRI="foaf:homepage"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty abbreviatedIRI="foaf:mbox"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty abbreviatedIRI="foaf:name"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>conf:Conference</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">conf:Conference</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>conf:Organization</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">conf:Organization</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>conf:PostalAddress</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">conf:PostalAddress</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>conf:address</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">conf:address</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>conf:conference</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">conf:conference</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>conf:has_affiliation</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">conf:has_affiliation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>conf:location</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">conf:location</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>conf:research_interests</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">conf:research_interests</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://annotation.semanticweb.org/iswc/iswc.daml#ISWC_2002</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">International Semantic Web Conference 2002</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>dc:creator</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">dc:creator</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>dc:date</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">dc:date</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>dc:title</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">dc:title</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>rdfs:label</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">rdfs:label</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>vcard:ADR</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">vcard:ADR</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>vcard:country</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">vcard:country</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>vcard:locality</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">vcard:locality</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>vcard:pcode</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">vcard:pcode</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>vcard:street</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">vcard:street</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>skos:Concept</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">skos:Concept</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>skos:broader</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">skos:broader</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>skos:prefLabel</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">skos:prefLabel</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>skos:subject</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">skos:subject</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>foaf:Document</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">foaf:Document</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>foaf:Person</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">foaf:Person</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>foaf:homepage</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">foaf:homepage</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>foaf:mbox</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">foaf:mbox</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>foaf:name</AbbreviatedIRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">foaf:name</Literal>
+    </AnnotationAssertion>
+    <AnnotationPropertyRange>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>xsd:string</AbbreviatedIRI>
+    </AnnotationPropertyRange>
+    <AnnotationPropertyDomain>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>conf:Conference</AbbreviatedIRI>
+    </AnnotationPropertyDomain>
+    <AnnotationPropertyDomain>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <AbbreviatedIRI>conf:Organization</AbbreviatedIRI>
+    </AnnotationPropertyDomain>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
