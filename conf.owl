@@ -14,57 +14,42 @@
 [ rdf:type owl:Ontology
  ] .
 
-#################################################################
-#    Annotation properties
-#################################################################
-
-###  http://www.w3.org/2000/01/rdf-schema#label
 rdfs:label rdfs:range xsd:string ;
            rdfs:domain conf:Conference ,
                        conf:Organization .
 
-
-#################################################################
-#    Object Properties
-#################################################################
-
-###  file:/C:/Users/Santos/Desktop/ontologia/conf/conference
 conf:conference rdf:type owl:ObjectProperty ;
                 rdfs:domain foaf:Document ;
                 rdfs:range conf:Conference .
 
 
-###  file:/C:/Users/Santos/Desktop/ontologia/conf/has_affiliation
+
 conf:has_affiliation rdf:type owl:ObjectProperty ;
                      rdfs:domain foaf:Person ;
                      rdfs:range conf:Organization .
 
 
-###  file:/C:/Users/Santos/Desktop/ontologia/conf/research_interests
+
 conf:research_interests rdf:type owl:ObjectProperty ;
                         rdfs:domain foaf:Person ;
                         rdfs:range skos:Concept .
 
 
-###  http://purl.org/dc/elements/1.1/creator
 dc:creator rdf:type owl:ObjectProperty ;
            rdfs:domain foaf:Document ;
            rdfs:range foaf:Person .
 
 
-###  http://www.w3.org/2001/vcard-rdf/3.0#ADR
 vcard:ADR rdf:type owl:ObjectProperty ;
           rdfs:domain conf:Organization ;
           rdfs:range conf:PostalAddress .
 
 
-###  http://www.w3.org/2004/02/skos/core#broader
 skos:broader rdf:type owl:ObjectProperty ;
              rdfs:domain skos:Concept ;
              rdfs:range skos:Concept .
 
 
-###  http://www.w3.org/2004/02/skos/core#subject
 skos:subject rdf:type owl:ObjectProperty ;
              rdfs:domain foaf:Document ;
              rdfs:range skos:Concept .
