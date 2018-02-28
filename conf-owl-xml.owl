@@ -57,16 +57,10 @@
         <NamedIndividual abbreviatedIRI="foaf:name"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org#Person/3"/>
-    </Declaration>
-    <Declaration>
         <DataProperty abbreviatedIRI="foaf:homepage"/>
     </Declaration>
     <Declaration>
         <NamedIndividual abbreviatedIRI="vcard:pcode"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://annotation.semanticweb.org/iswc/iswc.daml#ISWC_2002"/>
     </Declaration>
     <Declaration>
         <ObjectProperty abbreviatedIRI="conf:conference"/>
@@ -82,9 +76,6 @@
     </Declaration>
     <Declaration>
         <NamedIndividual abbreviatedIRI="skos:prefLabel"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty abbreviatedIRI="conf:research_interests"/>
     </Declaration>
     <Declaration>
         <DataProperty abbreviatedIRI="skos:prefLabel"/>
@@ -117,9 +108,6 @@
         <NamedIndividual abbreviatedIRI="skos:broader"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org#Person/1"/>
-    </Declaration>
-    <Declaration>
         <NamedIndividual abbreviatedIRI="conf:has_affiliation"/>
     </Declaration>
     <Declaration>
@@ -147,9 +135,6 @@
         <ObjectProperty abbreviatedIRI="skos:broader"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty abbreviatedIRI="conf:has_affiliation"/>
-    </Declaration>
-    <Declaration>
         <DataProperty abbreviatedIRI="dc:title"/>
     </Declaration>
     <Declaration>
@@ -163,9 +148,6 @@
     </Declaration>
     <Declaration>
         <NamedIndividual abbreviatedIRI="vcard:locality"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://www.semanticweb.org#Person/4"/>
     </Declaration>
     <Declaration>
         <DataProperty abbreviatedIRI="vcard:street"/>
@@ -191,72 +173,6 @@
             <ObjectProperty abbreviatedIRI="dc:creator"/>
         </ObjectMaxCardinality>
     </SubClassOf>
-    <ClassAssertion>
-        <Class abbreviatedIRI="conf:Conference"/>
-        <NamedIndividual IRI="http://annotation.semanticweb.org/iswc/iswc.daml#ISWC_2002"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class abbreviatedIRI="foaf:Person"/>
-        <NamedIndividual IRI="http://www.semanticweb.org#Person/1"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class abbreviatedIRI="foaf:Person"/>
-        <NamedIndividual IRI="http://www.semanticweb.org#Person/3"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class abbreviatedIRI="foaf:Person"/>
-        <NamedIndividual IRI="http://www.semanticweb.org#Person/4"/>
-    </ClassAssertion>
-    <DataPropertyAssertion>
-        <DataProperty abbreviatedIRI="dc:date"/>
-        <NamedIndividual IRI="http://annotation.semanticweb.org/iswc/iswc.daml#ISWC_2002"/>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">June 9-12, 2002</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty abbreviatedIRI="foaf:homepage"/>
-        <NamedIndividual IRI="http://www.semanticweb.org#Person/1"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">http://www.isi.edu/~gil</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty abbreviatedIRI="foaf:mbox"/>
-        <NamedIndividual IRI="http://www.semanticweb.org#Person/1"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">gil@isi.edu</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty abbreviatedIRI="foaf:name"/>
-        <NamedIndividual IRI="http://www.semanticweb.org#Person/1"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Yolanda Gil</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty abbreviatedIRI="foaf:homepage"/>
-        <NamedIndividual IRI="http://www.semanticweb.org#Person/3"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">http://www.isi.edu/~varunr</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty abbreviatedIRI="foaf:mbox"/>
-        <NamedIndividual IRI="http://www.semanticweb.org#Person/3"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">blythe@isi.edu</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty abbreviatedIRI="foaf:name"/>
-        <NamedIndividual IRI="http://www.semanticweb.org#Person/3"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Jim Blythe</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty abbreviatedIRI="foaf:homepage"/>
-        <NamedIndividual IRI="http://www.semanticweb.org#Person/4"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">http://www.i-u.de/schools/eberhart/</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty abbreviatedIRI="foaf:mbox"/>
-        <NamedIndividual IRI="http://www.semanticweb.org#Person/4"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">eberhart@i-u.de</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty abbreviatedIRI="foaf:name"/>
-        <NamedIndividual IRI="http://www.semanticweb.org#Person/4"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Andreas Eberhart</Literal>
-    </DataPropertyAssertion>
     <ObjectPropertyDomain>
         <ObjectProperty abbreviatedIRI="conf:conference"/>
         <Class abbreviatedIRI="foaf:Document"/>
@@ -280,14 +196,6 @@
     <ObjectPropertyRange>
         <ObjectProperty abbreviatedIRI="conf:conference"/>
         <Class abbreviatedIRI="conf:Conference"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty abbreviatedIRI="conf:has_affiliation"/>
-        <Class abbreviatedIRI="conf:Organization"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty abbreviatedIRI="conf:research_interests"/>
-        <Class abbreviatedIRI="skos:Concept"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty abbreviatedIRI="dc:creator"/>
@@ -432,23 +340,8 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>conf:has_affiliation</AbbreviatedIRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">conf:has_affiliation</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <AbbreviatedIRI>conf:location</AbbreviatedIRI>
         <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">conf:location</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <AbbreviatedIRI>conf:research_interests</AbbreviatedIRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">conf:research_interests</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://annotation.semanticweb.org/iswc/iswc.daml#ISWC_2002</IRI>
-        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">International Semantic Web Conference 2002</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
