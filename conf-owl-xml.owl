@@ -262,14 +262,6 @@
         <Class abbreviatedIRI="foaf:Document"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty abbreviatedIRI="conf:has_affiliation"/>
-        <Class abbreviatedIRI="foaf:Person"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty abbreviatedIRI="conf:research_interests"/>
-        <Class abbreviatedIRI="foaf:Person"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
         <ObjectProperty abbreviatedIRI="dc:creator"/>
         <Class abbreviatedIRI="foaf:Document"/>
     </ObjectPropertyDomain>
