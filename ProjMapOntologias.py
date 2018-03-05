@@ -2,7 +2,7 @@
 
 from owlready import *
 
-ontologyInput =  get_ontology("http://github.com/salomaosilvasantos/pyontology/blob/master/conf.owl")
+ontologyInput =  get_ontology("https://github.com/salomaosilvasantos/pyontology/blob/master/teste.owl")
 
 ontologyInput.load()
 
